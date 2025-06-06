@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #ff80bf;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    background-color: #cc3399;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chat-area {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #d63384;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.message-box {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.message-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.message-box button {
+    padding: 10px 20px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.create-room {
+  margin-top: 20px;
+}
+
+.create-room input,
+.create-room select,
+.create-room button {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+.login-container {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ff99cc, #ffccff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h2 {
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-box input:focus {
+    border-color: #d63384;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d63384;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #bf2a74;
+}
